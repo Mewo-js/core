@@ -1,3 +1,2 @@
-# huro.js
-huro.js core - core of huro.js for creating client side rendered web applications
-# core
+# Mewo.js core
+Core of Mewo.js, everything that is happening on the DOM
