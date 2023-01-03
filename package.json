@@ -1,0 +1,5 @@
+{
+  "name": "@mewo.js/core",
+  "module": "src/mewo.js",
+  "type": "module"
+}

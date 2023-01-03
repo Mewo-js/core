@@ -1,0 +1,40 @@
+import { Mewo, MewoRef } from "../src/mewo.js";
+
+const main = new MewoRef(0);
+const bench = new MewoRef(new Date());
+
+function inc() {
+    main.value++;
+}
+
+function dec() {
+    main.value--;
+}
+
+window.inc = inc;
+window.dec = dec;
+
+function* MewoLazyHydrate(...args) {
+    yield* args;
+}
+
+const refs = MewoLazyHydratce([".hydrate", main, function () { this.text(`Count is ${main.value}`) }], [".hydrate-ukqunohwhd", bench, function () { this.text(bench.value); }], [".hydrate-zswsnvtpyb", bench, function () { this.text(bench.value); }], [".hydrate-qzqsggommu", bench, function () { this.text(bench.value); }], [".hydrate-otljtyjurz", bench, function () { this.text(bench.value); }], [".hydrate-ebzcokjgmc", bench, function () { this.text(bench.value); }], [".hydrate-wjuzxqyats", bench, function () { this.text(bench.value); }], [".hydrate-tippovzesa", bench, function () { this.text(bench.value); }], [".hydrate-rohberhjvn", bench, function () { this.text(bench.value); }], [".hydrate-xljmcfwopy", bench, function () { this.text(bench.value); }], [".hydrate-zzepdvfqqd", bench, function () { this.text(bench.value); }], [".hydrate-tzydhmykmv", bench, function () { this.text(bench.value); }], [".hydrate-joisvxwdha", bench, function () { this.text(bench.value); }], [".hydrate-nkarmiymkf", bench, function () { this.text(bench.value); }], [".hydrate-wcktflebwy", bench, function () { this.text(bench.value); }], [".hydrate-ftqdcjnbzh", bench, function () { this.text(bench.value); }], [".hydrate-jsjwmritvj", bench, function () { this.text(bench.value); }], [".hydrate-iyqovbdaxh", bench, function () { this.text(bench.value); }], [".hydrate-etigehwkqx", bench, function () { this.text(bench.value); }], [".hydrate-wgadazfilp", bench, function () { this.text(bench.value); }], [".hydrate-sgjddflabc", bench, function () { this.text(bench.value); }], [".hydrate-gfmsorpnue", bench, function () { this.text(bench.value); }], [".hydrate-auuoudippz", bench, function () { this.text(bench.value); }], [".hydrate-hjajykeqhu", bench, function () { this.text(bench.value); }], [".hydrate-oybfcdlzvo", bench, function () { this.text(bench.value); }], [".hydrate-wxaqncnner", bench, function () { this.text(bench.value); }], [".hydrate-twddynkxpg", bench, function () { this.text(bench.value); }], [".hydrate-ydixyceozt", bench, function () { this.text(bench.value); }], [".hydrate-clwretlran", bench, function () { this.text(bench.value); }], [".hydrate-pjmmafqqrs", bench, function () { this.text(bench.value); }], [".hydrate-qbciqqgjjx", bench, function () { this.text(bench.value); }], [".hydrate-jnxygpjfal", bench, function () { this.text(bench.value); }], [".hydrate-cnbntewvnk", bench, function () { this.text(bench.value); }], [".hydrate-ozbizqkikm", bench, function () { this.text(bench.value); }], [".hydrate-mcqxymfmkt", bench, function () { this.text(bench.value); }], [".hydrate-sxievtxjlq", bench, function () { this.text(bench.value); }], [".hydrate-ytkuxzinhz", bench, function () { this.text(bench.value); }], [".hydrate-civfqpouqg", bench, function () { this.text(bench.value); }], [".hydrate-ynautmwnac", bench, function () { this.text(bench.value); }], [".hydrate-vzvtmkrzeu", bench, function () { this.text(bench.value); }], [".hydrate-tlakbfclnd", bench, function () { this.text(bench.value); }], [".hydrate-cwshrynfze", bench, function () { this.text(bench.value); }], [".hydrate-vhxcdywttv", bench, function () { this.text(bench.value); }], [".hydrate-nvshpwstqx", bench, function () { this.text(bench.value); }], [".hydrate-dvtqxtcyzt", bench, function () { this.text(bench.value); }], [".hydrate-vmjujldycz", bench, function () { this.text(bench.value); }], [".hydrate-mkefvyxzcl", bench, function () { this.text(bench.value); }], [".hydrate-wrsduzkiud", bench, function () { this.text(bench.value); }], [".hydrate-zntdgqnpra", bench, function () { this.text(bench.value); }], [".hydrate-coxlctucoj", bench, function () { this.text(bench.value); }], [".hydrate-hsjwictcjn", bench, function () { this.text(bench.value); }], [".hydrate-mafnvakbbf", bench, function () { this.text(bench.value); }], [".hydrate-esnwnhriix", bench, function () { this.text(bench.value); }], [".hydrate-ymuapahlqr", bench, function () { this.text(bench.value); }], [".hydrate-tirgawvoqw", bench, function () { this.text(bench.value); }], [".hydrate-mikbsfkjdm", bench, function () { this.text(bench.value); }], [".hydrate-ccdyapozwr", bench, function () { this.text(bench.value); }], [".hydrate-hfgihejmup", bench, function () { this.text(bench.value); }], [".hydrate-hfkkprwehu", bench, function () { this.text(bench.value); }], [".hydrate-evmjdwmtkr", bench, function () { this.text(bench.value); }], [".hydrate-sqcahbseye", bench, function () { this.text(bench.value); }], [".hydrate-bmcxlsqwda", bench, function () { this.text(bench.value); }], [".hydrate-dnpvylvirs", bench, function () { this.text(bench.value); }], [".hydrate-tycjnrahuv", bench, function () { this.text(bench.value); }], [".hydrate-tsrxiwcxby", bench, function () { this.text(bench.value); }], [".hydrate-jdptjrrfen", bench, function () { this.text(bench.value); }], [".hydrate-qyogrwzyhz", bench, function () { this.text(bench.value); }], [".hydrate-gsxlumgxye", bench, function () { this.text(bench.value); }], [".hydrate-bcjsrxuhkz", bench, function () { this.text(bench.value); }], [".hydrate-pfbomoudnf", bench, function () { this.text(bench.value); }], [".hydrate-rguuottiqz", bench, function () { this.text(bench.value); }], [".hydrate-jffvemeonw", bench, function () { this.text(bench.value); }], [".hydrate-jqdtdzicfm", bench, function () { this.text(bench.value); }], [".hydrate-zslzldtlyq", bench, function () { this.text(bench.value); }], [".hydrate-jqkexwnfjc", bench, function () { this.text(bench.value); }], [".hydrate-gbumyuamvn", bench, function () { this.text(bench.value); }], [".hydrate-dsjzrsxcye", bench, function () { this.text(bench.value); }], [".hydrate-javvtjhahs", bench, function () { this.text(bench.value); }], [".hydrate-lehzkxztbr", bench, function () { this.text(bench.value); }], [".hydrate-tfnblexykn", bench, function () { this.text(bench.value); }], [".hydrate-kywvjovliy", bench, function () { this.text(bench.value); }], [".hydrate-kfinosskbx", bench, function () { this.text(bench.value); }], [".hydrate-ooexzrtufm", bench, function () { this.text(bench.value); }], [".hydrate-ilukaphxxp", bench, function () { this.text(bench.value); }], [".hydrate-juyzfhllkp", bench, function () { this.text(bench.value); }], [".hydrate-xpseaevlrc", bench, function () { this.text(bench.value); }], [".hydrate-vfemhfdhgn", bench, function () { this.text(bench.value); }], [".hydrate-qitazblwdz", bench, function () { this.text(bench.value); }], [".hydrate-nxcfwmhkwk", bench, function () { this.text(bench.value); }], [".hydrate-rittcxscid", bench, function () { this.text(bench.value); }], [".hydrate-ojyzsinyfb", bench, function () { this.text(bench.value); }], [".hydrate-ihuwqogakq", bench, function () { this.text(bench.value); }], [".hydrate-vmzhmfjgfw", bench, function () { this.text(bench.value); }], [".hydrate-pkmgtjnswy", bench, function () { this.text(bench.value); }], [".hydrate-romtuiment", bench, function () { this.text(bench.value); }], [".hydrate-iuerbnhhlc", bench, function () { this.text(bench.value); }], [".hydrate-hmceeicilh", bench, function () { this.text(bench.value); }], [".hydrate-mpxgumheta", bench, function () { this.text(bench.value); }], [".hydrate-rwbvybgqwd", bench, function () { this.text(bench.value); }], [".hydrate-znptzmftmh", bench, function () { this.text(bench.value); }], [".hydrate-rjcpailnez", bench, function () { this.text(bench.value); }]);
+
+console.time("hydration");
+
+function MewoHydrate() {
+    const it = refs.next();
+    if (!it.done) {
+        const el = Mewo(it.value[0]);
+        el.bind(it.value[1], it.value[2]);
+        el.removeClass(it.value[0].replace(".", ""));
+        window.requestIdleCallback(MewoHydrate);
+    } else
+        console.timeEnd("hydration");
+}
+
+window.requestIdleCallback(MewoHydrate);
+
+setInterval(() => {
+    bench.value = new Date();
+}, 1000);
